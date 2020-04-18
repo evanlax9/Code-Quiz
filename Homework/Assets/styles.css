@@ -1,0 +1,51 @@
+body {
+  background-color: skyblue;
+}
+#introDiv {
+  text-align: center;
+  border: oldlace;
+  font-style: oblique;
+  padding: 250px;
+}
+
+#questionDiv {
+  display: none;
+}
+
+#timerDiv {
+  text-align: right;
+  border: green;
+}
+#questionOne,
+#questionTwo,
+#questionThree,
+#questionFour,
+#questionFive,
+#questionSix,
+#questionSeven,
+#questionEight {
+  display: none;
+  text-align: center;
+  padding: 250px;
+}
+
+.wrong1,
+.answer1,
+.wrong2,
+.answer2,
+.wrong3,
+.answer3,
+.wrong4,
+.answer4,
+.wrong5,
+.answer5,
+.wrong6,
+.answer6,
+.wrong7,
+.answer7,
+.wrong8,
+.answer8 {
+  border-color: green;
+  border: 10px;
+  background-color: yellow;
+}
