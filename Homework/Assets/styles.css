@@ -6,6 +6,7 @@ body {
   border: oldlace;
   font-style: oblique;
   padding: 250px;
+  text-decoration: whitesmoke;
 }
 
 #questionDiv {
@@ -48,4 +49,9 @@ body {
   border-color: green;
   border: 10px;
   background-color: yellow;
+}
+
+.alertDiv {
+  text-align: center;
+  padding: 250px;
 }
