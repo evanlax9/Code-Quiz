@@ -22,6 +22,7 @@ $(document).ready(function () {
 
   $(".answer1").on("click", function () {
     goodAnswer++;
+    timer = timer + 10;
     $("#questionOne").hide();
     $("#questionTwo").show();
     //$(".answer1").css("color", "white");
@@ -146,5 +147,7 @@ $(document).ready(function () {
     $(".numberIncorrect").html(badAnswer);
 
     $(".alertDiv").show();
+  }
+  if (goodAnswer > badAnswer) {
   }
 });
